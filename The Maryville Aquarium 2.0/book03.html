@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ticket Booking</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/crumbs_style.css"> <!-- Resource style -->
+        <script src="js/modernizr.js"></script>
+        <script src="lib/js/card.js"></script>
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+		  <div id="header">
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Special Occasions</a>
+									<ul>
+										<li><a href="404.html">Birthdays</a></li>
+										<li><a href="404.html">School Trips</a></li>
+									</ul>
+								</li>
+                        		<li><a href="#0" class="cd-popup-trigger1">Register</a></li>
+                                <li><a href="#0" class="cd-popup-trigger2">My Account</a></li>
+                                <li><a href="about-us.html" class="">About Us</a></li>
+								<li><a href="" class=""><input id="search-button" placeholder="Search" /></a></li>
+							</ul>
+						</nav>
+				</div>
+			<!-- Main -->
+				<div class="wrapper style" style="background-image:url(images/colisa-chuna-gourami-white-background1.jpg); background-repeat:no-repeat; background-size:cover">
+
+					<div class="container">
+						<article id="main" class="special">	
+                                <section>
+                                    <nav>
+                                    <ol class="cd-multi-steps text-center custom-icons">
+                                        <li id="pg1" class="visited"><a href="book.php">Select Tickets</a></li>
+                                        <li id="pg2" class="visited"><a href="book02.html">...And More!</a></li>
+                                        <li id="pg3" class="current"><a href="#">Pay Up!</a></li>
+                                        <li id="pg4"><a href="book04.html">Here you go!</a></li>
+                                    </ol>
+                                  </nav>
+                                  <div id="card-payment-details" >
+                                  <br/>
+                                          <div style="margin-left:17em;margin-right:3em;float:left;" class="card-wrapper">
+                                          </div>
+                                          <div style="float:left;margin-top:0px;padding-left:1em;" class="form-container active">
+                                              <form action="">
+                                                  <input class="card-input" placeholder="Card number" type="text" name="number">
+                                                  <input class="card-input" placeholder="Full name" type="text" name="name">
+                                                  <input class="card-input" placeholder="MM/YY" type="text" name="expiry">
+                                                  <input class="card-input" placeholder="CVC" type="text" name="cvc">
+                                              </form>
+                                          </div>
+                                  	</div>
+                                    <br/><br/><br/><br/><br/><br/>
+                                    <div class="personal-details">
+                                    	
+                                        <br/>
+                                        <table id="personal-contact-details">
+                                        <tr>
+                                        	<td><label class="ticket-form" for="amount">Amount</label>&emsp; &thinsp; &emsp;
+                                            <input class="ticket-form" id="amount" type="text" placeholder="$0.0" disabled></td>
+                                            <td><label class="ticket-form" for="name">Name</label> &emsp;&emsp;&emsp;&thinsp;
+                                            <input class="ticket-form" id="name" type="text" placeholder="Name"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="email">Email</label> &emsp;  &emsp; &nbsp; &thinsp;
+                                            <input class="ticket-form" id="email" type="email" placeholder="Email"></td>
+                                            <td><label class="ticket-form" for="phone">Phone</label>&emsp; &thinsp; &emsp; &thinsp;
+                                            <input class="ticket-form" id="phone" type="number" placeholder="Phone"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="add1">Address 01</label> &nbsp; &thinsp;
+                                            <input class="ticket-form" id="add1" type="text" placeholder="Line 01"></td>
+                                            <td><label class="ticket-form" for="add2">Address 02</label> &thinsp; &nbsp;
+                                            <input class="ticket-form" id="add2" type="text" placeholder="Line 02"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="city">City</label> &emsp;&emsp;&emsp; &nbsp; &thinsp;
+                                            <input class="ticket-form" id="city" type="text" placeholder="City"></td>
+                                            <td><label class="ticket-form" for="state">State</label> &thinsp; &emsp; &thinsp;&emsp;&nbsp;&thinsp;
+                                            <input class="ticket-form" id="state" type="text" placeholder="State"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="zip">Zip</label>&emsp;&emsp; &emsp; &nbsp; &thinsp;&thinsp;
+                                            <input class="ticket-form" id="zip" type="number" placeholder="Zip Code"></td>
+                                        </tr>
+                                        </table>                         
+                                  	</div>
+                                    
+                                    <br/><br/>                                  
+                                 <br/><br/>
+                                 <div class="style1">
+                                 	<a href="book04.html"><button style="margin-left:13em;" id="next-button" type="button" value="Pay" onclick="book04.html">Pay</button></a>
+                                    <a href="book04.html"><button style="margin-left:10em;" id="cancel-button" type="button" value="Cancel" onclick="book04.html">Cancel</button></a>
+                                 </div>
+                                </section>                           
+					  </article>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<!-- Comments -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-comment circled"><span class="label">Comments</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="tweet">
+												"Highly recommend for any age! I loved it as much as my 9 year old."<br/>
+												<span class="timestamp">5 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"I've been to many aquariums in my days, and this one does not dissapoint! There are many 
+                                                wings to this aquarium and all are lots of fun!"<br/>
+												<span class="timestamp">30 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"The place was a very educational experience. Since we were deaf, the tour guide was really helpful
+                                                in helping us understand the exhibits."<br/>
+												<span class="timestamp">3 hours ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"The Jellyfish display was amazing! This is a great place to spend a full day and despite the 
+                                                fact it was really well done, the tickets were reasonable."<br/>
+												<span class="timestamp">5 hours ago</span>
+											</article>
+										</li>
+									</ul>
+								</section>
+
+							<!-- Posts -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
+									</header>
+                                    <table>
+                                      <tr>
+                                          <td>Name: </td>
+                                          <td><input id="name" class="contactInput" placeholder="Name" required></td>
+                                      </tr>
+                                      <tr>
+                                      	<td colspan="2">__________________________________________</td>
+                                      </tr>
+                                      <tr>
+                                          <td style="padding-top:15px;">Email: </td>
+                                          <td><input id="email" class="contactInput" placeholder="Email address" required></td>
+                                      </tr>
+                                      <tr>
+                                      	<td colspan="2">__________________________________________</td>
+                                      </tr>
+                                      <tr>
+                                          <td style="margin-top:0px">Message: </td>
+                                          <td style="padding-top:15px"><textarea id="message" class="contactInput" placeholder=""></textarea></td>
+                                      </tr>
+                                      <tr>
+                                      <td  style="padding-top:35px;" colspan="2"> <button class="submitContactInfo" type="submit" >Submit</button></td>
+                                      </tr>
+                                  </table>
+								</section>
+
+							<!-- Photos -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+									</header>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+										</div>
+									</div>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+										</div>
+									</div>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+						</div>
+						<hr />
+						<div class="row">
+							<div class="12u">
+
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+											<h3>Want to see more?</h3>
+										</header>
+										<p>Connect with us socially, share on our wall, tweet on our feed or explore more amazing pictures!.</p>
+										<ul class="icons">
+                                          <li><a href="https://twitter.com/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                          <li><a href="https://www.facebook.com/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                          <li><a href="https://www.instagram.com/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                          <li><a href="https://www.pinterest.com/" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; All rights reserved.</li><li>The Maryville Aquarium</li>
+										</ul>
+									</div>
+						  </div>
+					  </div>
+					</div>
+		  </div>
+	</div>
+
+		<!-- Scripts -->
+			<!-- <script src="assets/js/jquery.min.js"></script> -->
+			<script src="js/jquery-1.11.3.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+</body>
+</html>

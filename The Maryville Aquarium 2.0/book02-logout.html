@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ticket Booking</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="js/modernizr.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/crumbs_style.css"> <!-- Resource style -->
+		
+        <link rel="stylesheet" href="css/style_popup.css">
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+		  <div id="header">
+					<!-- Inner -->
+						<div class="inner">                
+							<header>
+								<h1><a href="index.html" id="logo">The Maryville Aquarium</a></h1>
+								<hr/>
+							</header>
+							<footer>
+								<a href="#banner" class="button circled scrolly">Dive</a>
+							</footer>
+                            
+                            <div id="sign-up" class="cd-popup1" role="alert">
+                              <div class="cd-popup-container1">
+                                  <p>
+                                  <form>
+                                    <p>
+                                        <label class="cd-form" for="signup-name">Name</label>
+                                        <input class="cd-form" id="signup-name" type="text" placeholder="Name">
+                                    </p>
+                                    
+                                    <p>
+                                        <label class="cd-form" for="signup-user">Userame</label>
+                                        <input class="cd-form" id="signup-user" type="text" placeholder="Username">
+                                    </p>
+                
+                                    <p>
+                                        <label class="cd-form" for="signup-password">Password</label>
+                                        <input class="cd-form" id="signup-password" type="password" hidden placeholder="Password">
+                                    </p>
+                                    
+                                   	<p>
+                                        <label class="cd-form" for="signup-email">E-mail</label>
+                                        <input class="cd-form" id="signup-email" type="email" placeholder="E-mail">
+                                    </p>
+                
+                                    <p >
+                                        <a href="index.html"><input class="cd-buttons" type="button" value="Register"></a>
+                                    </p>
+                                  </form>
+                                  </p>
+                                  
+                                  <a href="#0" class="cd-popup-close1 img-replace"></a>
+                              </div> 
+                           </div>
+                          <div id="sign-in" class="cd-popup2" role="alert">
+                              <div class="cd-popup-container2">
+                                  <p>
+                                  <form>
+                                    <p>
+                                        <label class="cd-form" for="signin-email">E-mail</label>
+                                        <input class="cd-form" id="signin-email" type="email" placeholder="E-mail">
+                                    </p>
+                
+                                    <p >
+                                        <label class="cd-form" for="signin-password">Password</label>
+                                        <input class="cd-form" id="signin-password" type="password" hidden placeholder="Password">
+                                    </p>
+                
+                                    <p>
+                                        <input type="checkbox" id="remember-me-signup" checked>
+                                        <label for="remember-me-signup">Remember me</label>
+                                    </p>
+                
+                                    <p >
+                                        <a href="index-logout.html"><input class="cd-buttons" type="button" value="Login"></a>
+                                    </p>
+                                  </form>
+                                  </p>
+                                  
+                                  <a href="#0" class="cd-popup-close2 img-replace">Close</a>
+                              </div> <!-- cd-popup-container -->
+                          </div> <!-- cd-popup -->                        
+                        </div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index-logout.html">Home</a></li>
+								<li>
+									<a href="#">Special Occasions</a>
+									<ul>
+										<li><a href="404-logout.html">Birthdays</a></li>
+										<li><a href="404-logout.html">School Trips</a></li>
+									</ul>
+								</li>
+                        		<li><a href="#0" class="cd-popup-trigger1">Register</a></li>
+                                <li><a href="#0" class="cd-popup-trigger2">My Account</a></li>
+                                <li><a href="about-us.html" class="">About Us</a></li>
+								<li><a href="" class=""><input id="search-button" placeholder="Search" /></a></li>
+								<li><a href="index.html" class="">Logout</a></li>
+							</ul>
+						</nav>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style" style="background-image:url(images/two-starfish-against-white-background.jpg); background-repeat:no-repeat; background-size:cover">
+
+					<div class="container">
+						<article id="main" class="special">	
+                                <section>
+                                    <nav>
+                                    <ol class="cd-multi-steps text-center custom-icons">
+                                        <li id="pg1" class="visited"><a href="book-logout.php">Select Tickets</a></li>
+                                        <li id="pg2" class="current"><a href="#">...And More!</a></li>
+                                        <li id="pg3"><a href="book03-logout.html">Pay Up!</a></li>
+                                        <li id="pg4"><a href="book04-logout.html">Here you go!</a></li>
+                                    </ol>
+                                  </nav>
+                                  <div class="wrapper" >                  	
+                                 	<div class="personal-details">
+                                    	<h3><strong>Your Details</strong></h3>
+                                        <br/>
+                                        <table id="personal-contact-details">
+                                        <tr>
+                                        	<td><label class="ticket-form" for="fname">First Name</label> &emsp;
+                                            <input class="ticket-form" id="fname" type="text" placeholder="First Name"></td>
+                                            <td><label class="ticket-form" for="lname">Last Name</label> &emsp;
+                                            <input class="ticket-form" id="lname" type="text" placeholder="Last Name"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="email">Email</label> &emsp;  &emsp; &nbsp; &thinsp;
+                                            <input class="ticket-form" id="email" type="email" placeholder="Email"></td>
+                                            <td><label class="ticket-form" for="phone">Phone</label>&emsp; &thinsp; &emsp; &thinsp;
+                                            <input class="ticket-form" id="phone" type="number" placeholder="Phone"></td>
+                                        </tr>
+                                        </table>                         
+                                  	</div>
+                                    <br/><br/>
+                                    <div class="add-details">
+                                    	<h3><strong>Additional Details</strong></h3>
+                                        <br/>
+                                        <table id="additional-details">
+                                        <tr>
+                                        	<td><label class="ticket-form" for="guide">Guide Needed</label>&emsp; &thinsp; &thinsp;
+                                            <input type="radio" name="guide" value="yes"> Yes &emsp; &nbsp; &thinsp; &thinsp;
+  											<input type="radio" name="guide" value="no"> No </td>
+                                        </tr>
+										<tr>
+                                        	<td><label class="ticket-form" for="guide-tools">Additional Guidance (GPS, Maps)</label>&emsp; &thinsp; &thinsp;
+                                            <input type="radio" name="guide-tools" value="yes"> Yes &emsp; &nbsp; &thinsp; &thinsp;
+  											<input type="radio" name="guide-tools" value="no"> No </td>
+                                        </tr>
+										<tr>
+                                        	<td><label class="ticket-form" for="info-book">Information Booklet</label>&emsp; &thinsp; &thinsp;
+                                            <input type="radio" name="info-book" value="yes"> Yes &emsp; &nbsp; &thinsp; &thinsp;
+  											<input type="radio" name="info-book" value="no"> No </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="ticket-form" for="meal">Meal Plan</label> &emsp; &emsp; &emsp;
+                                            <input type="radio" name="meal" value="snack"> Snacks &emsp;
+  											<input type="radio" name="meal" value="lunch"> Lunch &emsp;
+  											<input type="radio" name="meal" value="dinner"> Dinner &emsp;
+  											<input type="radio" name="meal" value="dinner"> 3-Meal Combo</td>
+                                        </tr>
+                                        </table>                         
+                                  	</div>
+                                    <br/>
+									<div class="style2"  style="margin-left:10em;">
+                                    For pick-up and Drop facilities, please contact 1800-100-9999.
+                                    </div>                                  
+                                 <br/><br/>
+                                 <div class="style1">
+                                 	<a href="book03-logout.html"><button id="next-button" type="button" value="Next" onclick="/book03.html">Next</button></a>
+                                 </div>
+								</div>
+                           </section>
+					  </article>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<!-- Comments -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-comment circled"><span class="label">Comments</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="tweet">
+												"Highly recommend for any age! I loved it as much as my 9 year old."<br/>
+												<span class="timestamp">5 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"I've been to many aquariums in my days, and this one does not dissapoint! There are many 
+                                                wings to this aquarium and all are lots of fun!"<br/>
+												<span class="timestamp">30 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"The place was a very educational experience. Since we were deaf, the tour guide was really helpful
+                                                in helping us understand the exhibits."<br/>
+												<span class="timestamp">3 hours ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												"The Jellyfish display was amazing! This is a great place to spend a full day and despite the 
+                                                fact it was really well done, the tickets were reasonable."<br/>
+												<span class="timestamp">5 hours ago</span>
+											</article>
+										</li>
+									</ul>
+								</section>
+
+							<!-- Posts -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
+									</header>
+                                    <table>
+                                      <tr>
+                                          <td>Name: </td>
+                                          <td><input id="name" class="contactInput" placeholder="Name" required></td>
+                                      </tr>
+                                      <tr>
+                                      	<td colspan="2">__________________________________________</td>
+                                      </tr>
+                                      <tr>
+                                          <td style="padding-top:15px;">Email: </td>
+                                          <td><input id="email" class="contactInput" placeholder="Email address" required></td>
+                                      </tr>
+                                      <tr>
+                                      	<td colspan="2">__________________________________________</td>
+                                      </tr>
+                                      <tr>
+                                          <td style="margin-top:0px">Message: </td>
+                                          <td style="padding-top:15px"><textarea id="message" class="contactInput" placeholder=""></textarea></td>
+                                      </tr>
+                                      <tr>
+                                      <td  style="padding-top:35px;" colspan="2"> <button class="submitContactInfo" type="submit" >Submit</button></td>
+                                      </tr>
+                                  </table>
+								</section>
+
+							<!-- Photos -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+									</header>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+										</div>
+									</div>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+										</div>
+									</div>
+									<div class="row 25% no-collapse">
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
+										</div>
+										<div class="6u">
+											<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+						</div>
+						<hr />
+						<div class="row">
+							<div class="12u">
+
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+											<h3>Want to see more?</h3>
+										</header>
+										<p>Connect with us socially, share on our wall, tweet on our feed or explore more amazing pictures!.</p>
+										<ul class="icons">
+                                          <li><a href="https://twitter.com/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                          <li><a href="https://www.facebook.com/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                          <li><a href="https://www.instagram.com/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                          <li><a href="https://www.pinterest.com/" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; All rights reserved.</li><li>The Maryville Aquarium</li>
+										</ul>
+									</div>
+						  </div>
+					  </div>
+					</div>
+		  </div>
+	</div>
+
+		<!-- Scripts -->
+			<!-- <script src="assets/js/jquery.min.js"></script> -->
+			<script src="js/jquery-1.11.3.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
